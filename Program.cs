@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using NlogConfigDemo;
+using System.Collections.Generic;
+
 namespace NlogConfigDemo
 {
     public class Program
@@ -7,7 +9,19 @@ namespace NlogConfigDemo
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to NLog Configuration,Arraylist and Dictionary CRUD operation!");
-            Adding.Sum(10, 5);
+            Console.WriteLine("Select any one Option for Opreration");
+            Console.WriteLine("\n 1. For Nlog Config Example. \n 2. CRUD operation on ArrayList.");
+            int option = Convert.ToInt32(Console.ReadLine());
+            switch (option)
+            {
+                case 1:
+                    Adding.Sum(10, 5);
+                    break;
+                case 2:
+                    ArraylistCRUD.ArraylistOperation();
+                    break;
+
+            }
         }
     }
 }
