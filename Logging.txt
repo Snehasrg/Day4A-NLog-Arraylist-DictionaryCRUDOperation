@@ -1,0 +1,12 @@
+2023-03-17 00:44:10.7724 DEBUG Debugging with sum operation successfull
+2023-03-17 00:44:10.8514 INFO Sum Result: 15
+2023-03-17 11:13:38.6185 DEBUG Debugging with sum operation successfull
+2023-03-17 11:13:38.7172 INFO Sum Result: 15
+2023-03-18 18:06:56.2526 DEBUG Debugging with sum operation successfull
+2023-03-18 18:06:56.3301 INFO Sum Result: 15
+2023-03-27 18:49:14.3856 DEBUG Debugging with sum operation successfull
+2023-03-27 18:49:14.4624 INFO Sum Result: 15
+2023-03-27 19:12:01.0544 DEBUG Debugging with sum operation successfull
+2023-03-27 19:12:01.1620 INFO Sum Result: 15
+2023-03-27 19:27:38.3852 DEBUG Debugging with sum operation successfull
+2023-03-27 19:27:38.4734 INFO Sum Result: 15
