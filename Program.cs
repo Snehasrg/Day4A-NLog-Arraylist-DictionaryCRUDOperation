@@ -1,5 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using NlogConfigDemo;
-
-Console.WriteLine("Hello, World!");
-Adding.Sum(10, 5);
+namespace NlogConfigDemo
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("Welcome to NLog Configuration,Arraylist and Dictionary CRUD operation!");
+            Adding.Sum(10, 5);
+        }
+    }
+}
