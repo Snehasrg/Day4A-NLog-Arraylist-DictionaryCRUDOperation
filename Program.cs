@@ -23,6 +23,9 @@ namespace NlogConfigDemo
                 case 3:
                     DictionaryCRUD.DictionaryOperation();
                     break;
+                default: 
+                    Console.WriteLine("Please,Choose correct option.");
+                    break;
 
             }
         }
